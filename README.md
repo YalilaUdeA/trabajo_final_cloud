@@ -51,3 +51,10 @@ Se registró el modelo ejecutando el script ´07-07-azure-model-registration.py�
 
 ![ModelReg2](https://user-images.githubusercontent.com/78625501/141686027-81b976ec-290c-4baa-a7cf-3eb3954d0c41.JPG)
 
+### Despliegue del modelo
+
+Se creo el ´score.py´, el cual sera usado por el endpoint para su predicción.
+Se ejecuto el script ´09-deploy-azure-model-aci.py´ para desplegar el modelo en azure:
+
+![EndPointAzure](https://user-images.githubusercontent.com/78625501/141686438-0c1b033c-6a1c-4bec-b82b-9862912cb29c.JPG)
+
