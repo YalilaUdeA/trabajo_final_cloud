@@ -7,24 +7,19 @@ from azureml.core import Dataset
 
 if __name__ == "__main__":
     ws = Workspace.from_config(path='./.azureml',_file_name='config.json')
-    datastore = ws.get_default_datastore()
-    dataset = Dataset.File.from_files(path=(datastore, 'datasets/cifar10'))
-
-    experiment = Experiment(workspace=ws, name='day1-experiment-train-pytorch-data-remote')
+ 
+    experiment = Experiment(workspace=ws, name='day1-experiment-train-wine')
 
     config = ScriptRunConfig(
         source_directory='./src',
-        script='train-remote.py',
+        script='wine-model.py',
         compute_target='cpu-cluster',
-        arguments=[
-            '--data_path', dataset.as_named_input('input').as_mount(),
-            '--learning_rate', 0.003,
-            '--momentum', 0.92],
+        
     )
     # set up pytorch environment
     env = Environment.from_conda_specification(
-        name='pytorch-env',
-        file_path='./.azureml/pytorch-remote-env.yml'
+        name='sklearn-env-aml',
+        file_path='./.azureml/sklearn-env-aml.yml'
     )
     config.run_config.environment = env
 

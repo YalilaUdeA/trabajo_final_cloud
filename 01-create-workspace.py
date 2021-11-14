@@ -3,10 +3,10 @@ from azureml.core.authentication import InteractiveLoginAuthentication
 from azureml.core import Workspace
 
 interactive_auth = InteractiveLoginAuthentication(tenant_id="")
-ws = Workspace.create(name='azure-ml',
+ws = Workspace.create(name='mlw_mludea_group',
             subscription_id='',
-            resource_group='rg_machine_learning',
-            create_resource_group=True,
+            resource_group='rg_mludea_yalila',
+            create_resource_group=False,
             location='eastus2',
             auth=interactive_auth
             )
