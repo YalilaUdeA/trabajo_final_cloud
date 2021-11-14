@@ -20,3 +20,7 @@ Para e desarrollo del objetivo de este trabajo, se hará uso de la metodologia M
 
 ### Creacion Workspace en azure ml
 
+Utilizando el acript de python ´01-create-workspace.py´ se creo el siguiente ambiente:
+
+
+![Worksspace](https://user-images.githubusercontent.com/78625501/141684469-5f86cb10-1530-4dc3-88b9-3e204cf69ad2.JPG)
