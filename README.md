@@ -28,3 +28,13 @@ Utilizando el acript de python ´01-create-workspace.py´ se creo el siguiente a
 ### Creacion de la maquina virtual
 
 Utilizando el acript de python ´02-create-compute.py´ se creo la siguiente maquina:
+
+![Compute](https://user-images.githubusercontent.com/78625501/141684728-f51af5e9-8875-4afc-893b-79baf736ba16.JPG)
+
+### Testeo del ambiente de trabajo
+
+Utilizando el acript de python ´03-test-workspace-remote.py´ se realizo la prueba del ambiente:
+
+![PruebaWorkspace](https://user-images.githubusercontent.com/78625501/141685025-44521e6b-6472-42b2-a687-417f04970f24.JPG)
+
+
