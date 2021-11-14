@@ -43,6 +43,10 @@ Se creo un modelo RainForestClassifier para clasificar los diferentes tipos de v
 
 ![ExperimentoWine](https://user-images.githubusercontent.com/78625501/141685793-9ffdc048-e95a-41f1-9376-cae8884d6765.JPG)
 
+### Registro del Modelo
+
+Se registró el modelo ejecutando el script ´07-07-azure-model-registration.py´:
+
 
 
 
