@@ -47,6 +47,6 @@ Se creo un modelo RainForestClassifier para clasificar los diferentes tipos de v
 
 Se registró el modelo ejecutando el script ´07-07-azure-model-registration.py´:
 
-
+![ModelReg](https://user-images.githubusercontent.com/78625501/141685994-8c2d9241-dcf7-4648-8194-dda3a735f1c3.JPG)
 
 
