@@ -22,8 +22,8 @@ Para e desarrollo del objetivo de este trabajo, se hará uso de la metodologia M
 
 Utilizando el script de python `01-create-workspace.py` se creo el siguiente ambiente:
 
+![Worksspace](https://user-images.githubusercontent.com/78625501/141687723-abc67e55-1940-4067-bcfe-e63dd4576212.JPG)
 
-![Worksspace](https://user-images.githubusercontent.com/78625501/141684469-5f86cb10-1530-4dc3-88b9-3e204cf69ad2.JPG)
 
 ### Creacion de la maquina virtual
 
