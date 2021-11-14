@@ -69,3 +69,5 @@ curl --location --request POST 'http://f3cffdf2-3379-4caa-b2b0-60acb3cb6773.east
         ]
 }'
 
+![PostmanResult](https://user-images.githubusercontent.com/78625501/141686955-36c2e808-57af-4b1b-9a69-cbe1d0fbc7d2.JPG)
+
