@@ -11,8 +11,9 @@
 3. Registro del modelo 
 4. Despliegue del modelo 
 
-#Metodologia:
+#Metodología:
 
+Para e desarrollo del objetivo de este trabajo, se hará uso de la metodologia MLOPS:
 
 ![ml-lifecycle](https://user-images.githubusercontent.com/78625501/141683286-3dc5161a-d029-4d08-a74a-fb6ec1315dfb.png)
 
