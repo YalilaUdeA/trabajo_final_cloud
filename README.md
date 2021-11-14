@@ -11,5 +11,11 @@
 3. Registro del modelo 
 4. Despliegue del modelo 
 
+#Metodologia:
+
+
+![ml-lifecycle](https://user-images.githubusercontent.com/78625501/141683286-3dc5161a-d029-4d08-a74a-fb6ec1315dfb.png)
+
+
 ## Creacion Workspace en azure ml
 
