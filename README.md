@@ -24,3 +24,7 @@ Utilizando el acript de python ´01-create-workspace.py´ se creo el siguiente a
 
 
 ![Worksspace](https://user-images.githubusercontent.com/78625501/141684469-5f86cb10-1530-4dc3-88b9-3e204cf69ad2.JPG)
+
+### Creacion de la maquina virtual
+
+Utilizando el acript de python ´02-create-compute.py´ se creo la siguiente maquina:
