@@ -60,6 +60,7 @@ Se ejecuto el script `09-deploy-azure-model-aci.py` para desplegar el modelo en 
 
 Para probar el endpoint se hizo el siguiente request:
 
+<code>
 curl --location --request POST 'http://f3cffdf2-3379-4caa-b2b0-60acb3cb6773.eastus2.azurecontainer.io/score' \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -68,6 +69,7 @@ curl --location --request POST 'http://f3cffdf2-3379-4caa-b2b0-60acb3cb6773.east
            [13.73, 1.5, 2.7, 22.5, 101.0, 3.0, 3.25, 0.29, 2.38, 5.7, 1.19, 2.71, 1285.0]
         ]
 }'
+</code>
 
 ![PostmanResult](https://user-images.githubusercontent.com/78625501/141686955-36c2e808-57af-4b1b-9a69-cbe1d0fbc7d2.JPG)
 
