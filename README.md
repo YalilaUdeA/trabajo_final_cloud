@@ -39,7 +39,7 @@ Utilizando el script de python `03-test-workspace-remote.py` se realizo la prueb
 
 ### Creación del wine model
 
-Se creo un modelo RainForestClassifier para clasificar los diferentes tipos de vinos de la base de datos seleccionada (load_wine) utilizando el archivo de pytho ´wine-model.py´. Luego se ejecuto el script `06-train-remote-with-remote-data.py` y se creo el experimento en azure:
+Se creo un modelo RainForestClassifier para clasificar los diferentes tipos de vinos de la base de datos seleccionada (load_wine) utilizando el archivo de pytho `wine-model.py`. Luego se ejecuto el script `06-train-remote-with-remote-data.py` y se creo el experimento en azure:
 
 ![ExperimentoWine](https://user-images.githubusercontent.com/78625501/141685793-9ffdc048-e95a-41f1-9376-cae8884d6765.JPG)
 
