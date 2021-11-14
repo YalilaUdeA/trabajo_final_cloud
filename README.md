@@ -27,25 +27,25 @@ Utilizando el acript de python `01-create-workspace.py` se creo el siguiente amb
 
 ### Creacion de la maquina virtual
 
-Utilizando el script de python ´02-create-compute.py´ se creo la siguiente maquina:
+Utilizando el script de python `02-create-compute.py` se creo la siguiente maquina:
 
 ![Compute](https://user-images.githubusercontent.com/78625501/141684728-f51af5e9-8875-4afc-893b-79baf736ba16.JPG)
 
 ### Testeo del ambiente de trabajo
 
-Utilizando el script de python ´03-test-workspace-remote.py´ se realizo la prueba del ambiente:
+Utilizando el script de python `03-test-workspace-remote.py` se realizo la prueba del ambiente:
 
 ![PruebaWorkspace](https://user-images.githubusercontent.com/78625501/141685025-44521e6b-6472-42b2-a687-417f04970f24.JPG)
 
 ### Creación del wine model
 
-Se creo un modelo RainForestClassifier para clasificar los diferentes tipos de vinos de la base de datos seleccionada (load_wine) utilizando el archivo de pytho ´wine-model.py´. Luego se ejecuto el script ´06-train-remote-with-remote-data.py´ y se creo el experimento en azure:
+Se creo un modelo RainForestClassifier para clasificar los diferentes tipos de vinos de la base de datos seleccionada (load_wine) utilizando el archivo de pytho ´wine-model.py´. Luego se ejecuto el script `06-train-remote-with-remote-data.py` y se creo el experimento en azure:
 
 ![ExperimentoWine](https://user-images.githubusercontent.com/78625501/141685793-9ffdc048-e95a-41f1-9376-cae8884d6765.JPG)
 
 ### Registro del Modelo
 
-Se registró el modelo ejecutando el script ´07-azure-model-registration.py´:
+Se registró el modelo ejecutando el script `07-azure-model-registration.py`:
 
 ![ModelReg](https://user-images.githubusercontent.com/78625501/141685994-8c2d9241-dcf7-4648-8194-dda3a735f1c3.JPG)
 
@@ -53,8 +53,8 @@ Se registró el modelo ejecutando el script ´07-azure-model-registration.py´:
 
 ### Despliegue del modelo
 
-Se creo el ´score.py´, el cual sera usado por el endpoint para su predicción.
-Se ejecuto el script ´09-deploy-azure-model-aci.py´ para desplegar el modelo en azure:
+Se creo el `score.py`, el cual sera usado por el endpoint para su predicción.
+Se ejecuto el script `09-deploy-azure-model-aci.py` para desplegar el modelo en azure:
 
 ![EndPointAzure](https://user-images.githubusercontent.com/78625501/141686438-0c1b033c-6a1c-4bec-b82b-9862912cb29c.JPG)
 
