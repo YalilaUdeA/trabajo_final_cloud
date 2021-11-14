@@ -58,3 +58,14 @@ Se ejecuto el script ´09-deploy-azure-model-aci.py´ para desplegar el modelo e
 
 ![EndPointAzure](https://user-images.githubusercontent.com/78625501/141686438-0c1b033c-6a1c-4bec-b82b-9862912cb29c.JPG)
 
+Para probar el endpoint se hizo el siguiente request:
+
+curl --location --request POST 'http://f3cffdf2-3379-4caa-b2b0-60acb3cb6773.eastus2.azurecontainer.io/score' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "data":
+        [
+           [13.73, 1.5, 2.7, 22.5, 101.0, 3.0, 3.25, 0.29, 2.38, 5.7, 1.19, 2.71, 1285.0]
+        ]
+}'
+
